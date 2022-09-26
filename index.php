@@ -9,7 +9,6 @@
 </head>
 <body>
     <main>
-        <div class="tudo">
             <section>
                 <div class="tela"></div>
             </section>
@@ -20,6 +19,7 @@
                         <h3 id="tituloaa">Justiça Eleitoral</h3> 
                     </div>
                     <div class="container">
+
                         <?php
                         $aa = [
                             0,
