@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.tudo{
+    width: 70%;
+}
+
+/*================TELA====================*/
+
+.tela{
+    background-color: aqua;
+    height: 86vh;
+    width: 57%;
+    margin: 7vh 0 7vh 7vh;
+    float: left;
+}
+
+
+
+/*==========================TECLADO==================*/
+
+.teclado{
+    height: 86vh;
+    background-color: antiquewhite;
+    width: 32%;
+    float: right;
+    margin: 7vh;
+    
+}
+
+.teclado .titulo{
+    background-color: rgb(158, 44, 44);
+    font-size: 5vh;
+    padding: 3vh 2vh;
+    text-align: center;
+    display: flex;
+}
+
+#je{
+    width: 22%;
+    margin: 0 0 0 7.5vh;
+}
+
+#tituloaa{
+    width: 20%;
+    font-size: 6vh;
+    margin-left: 15vh;
+}
+
+.row{
+    text-align: center;
+}
+
+.numeros{
+    padding: 2vh;
+    text-align: center;
+}
+
+.botao{
+    background-color: blue;
+    margin: 4vh 2vh 0 2vh ;
+    width: 20%;
+    height: 8vh;
+}
+
+.botao:hover{
+    background:rgb(192, 68, 68);
+    box-shadow:0 5px 0 rgb(35, 35, 35);
+  }
+
+.botao:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+  }
+
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.decisao{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#branco{
+    background-color: aquamarine;
+    border-color: transparent;
+    height: 10vh;
+    width: 22%;
+    margin: 0 2vh;
+}
+
+#apaga{
+    background-color: rgb(255, 127, 227);
+    border-color: transparent;
+    height: 10vh;
+    width: 22%;
+    margin: 0 2vh;
+}
+
+#confirma{
+    background-color: rgb(255, 221, 127);
+    border-color: transparent;
+    height: 10vh;
+    width: 22%;
+    margin: 0 2vh;
+}
