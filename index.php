@@ -15,11 +15,11 @@ include_once "./includes/head.php";
   </div>
   <div class="form-group">
     <label for="inputAddress">Vice candidato</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+    <input type="text" class="form-control" id="inputAddress" placeholder="Nome do vice...">
   </div>
   <div class="form-group">
-    <label for="inputAddress2">Endereço 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+    <label for="inputAddress2">Tipo de candidatura</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="insira o tipo de candidatura">
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
@@ -37,19 +37,12 @@ include_once "./includes/head.php";
       <label for="inputCEP">Idade</label>
       <input type="text" class="form-control" id="inputCEP">
     </div>
-    <div class="form-group col-md-2">
-      <label for="inputCEP">CEP</label>
-      <input type="text" class="form-control" id="inputCEP">
+    <div class="form-group col-md-6">
+      <label for="inputCEP">CPF</label>
+      <input type="text" class="form-control" id="inputCEP" placeholder="000.000.000-00">
     </div>
   </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Clique em mim
-      </label>
-    </div>
-  </div>
+  
   <button type="submit" class="btn btn-primary">Entrar</button>
 </form>
 </div>
