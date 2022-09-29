@@ -2,6 +2,9 @@
 include_once "./includes/head.php";
 ?>
 <div id="cadastro" class="container">
+
+<h1 class="container">Cadastro de candidato</h1>
+
 <form>
   <div class="form-row">
     <div class="form-group col-md-9">

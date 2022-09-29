@@ -13,7 +13,9 @@
   <body>
 
   <header>
-    <img id="logo" src="./contents/TSE-logo.png" alt="">
+    <img id="logo" src="./contents/senac.png" alt="">
+
+    
 
 
   </header>
