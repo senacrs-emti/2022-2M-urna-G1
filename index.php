@@ -1,9 +1,12 @@
 <?php
 include_once "./includes/head.php";
 ?>
-<div id="cadastro" class="container">
+<div class="container">
+<div class="row">
+<div id="cadastro" class=" col container">
 
-<h1 class="container">Cadastro de candidato</h1>
+
+<h1 id="titulo-cadastro" class="container">Cadastro de candidato</h1>
 
 <form>
   <div class="form-row">
@@ -49,6 +52,42 @@ include_once "./includes/head.php";
   <button type="submit" class="btn btn-primary">Entrar</button>
 </form>
 </div>
+<div di tabela class="col">
+<table id="tabela" class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Nome Completo</th>
+      <th scope="col">Vice</th>
+      <th scope="col">Partido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</div>
+</div>
+<
+<
 <?php
 include_once"./includes/footer.php";
 ?>
