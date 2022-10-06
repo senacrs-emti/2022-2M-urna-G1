@@ -33,3 +33,41 @@
         margin-top: 10vh;
         
     }
+    #titulo-cadastro{
+        text-align: center;
+    }
+    #login{
+        background-image: url("./contents/login-background.png");
+        background-size: cover;
+        background-position: center ;
+    }
+    #login-form{
+        display: block;
+        width: 80vh;
+        height: 50vh;
+        float: right;
+        margin-top: 5vh;
+        border-radius: 10px;
+        background: #ebebebda;
+        box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    }
+    .input-login{
+        width: 75vh;
+    }
+    #conteudo{
+        margin-top:5vh;
+    }
+   #conteudo-form{
+    float: right;
+   }
+
+   #contents{float: right;
+   width: 80vh;
+   margin-right: 20vh;
+   margin-top: 15vh ;
+
+   }
+    #title-admin{
+        text-align: center;
+    }

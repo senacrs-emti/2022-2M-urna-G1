@@ -1,6 +1,17 @@
 <?php
 include_once "./includes/head.php";
 ?>
+   <title>Olá, mundo!</title>
+  </head>
+  <body>
+
+<header>
+    <img id="logo" src="./contents/senac.png" alt="">
+
+    
+
+
+  </header>
 <div class="container">
 <div class="row">
 <div id="cadastro" class=" col container">
