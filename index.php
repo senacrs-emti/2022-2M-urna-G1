@@ -6,7 +6,7 @@ include_once "./includes/head.php";
 <body id="login">
 <section id="contents">
 <h2 id="title-admin" >Bem-vindo Admin</h2>
-<form id="login-form" action="processa-login.php" methodo="POST">
+<form id="login-form" action="processa-login.php" method="POST">
 
     <div id="conteudo">
     
