@@ -71,3 +71,18 @@
     #title-admin{
         text-align: center;
     }
+    .menu{
+       text-align: center;
+       background-color: aqua;
+       width: 1040px;
+       
+       
+
+    }
+    .cards{
+        display: block;
+        margin: 10px;
+        background-color: rgb(83, 59, 59) ;
+        width: 500px;
+        height: 200px;
+    }
