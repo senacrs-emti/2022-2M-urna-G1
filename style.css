@@ -41,7 +41,7 @@
 }
 
 hr{
-    margin: 10vh 0 0 0;
+    margin: 10vh 0 10vh 0;
 }
 
 #quadrados{
@@ -51,14 +51,13 @@ hr{
 #quadrado, #quadrado2{
     margin: 3vh 0 0 0;
     height: 7vh;
-    width: 20%;
     border: 1px solid black;
     background-color: transparent;
 
 }
 
 .deputadofederal2, .deputadoestadual, .deputadoestadual2, .senador, .senador2, .governador, .governador2, .presidente, .presidente2, .vereador, .vereador2{
-    display: none;
+    display: block;
 }
 
 .senador h3{
@@ -69,8 +68,12 @@ hr{
     display: flex;
 }
 
-.hide{
-    display: none;
+#fim{
+    position: absolute;
+    top: 34vh; 
+    left: 32vh;
+    bottom: 0;
+    font-size: 9vh;
 }
 
 /*====================TECLADO======================*/
@@ -160,7 +163,7 @@ hr{
     box-shadow:none;
   }
 
-#botao-confirma-som{
+#send{
     background-color: rgb(56, 180, 103);
     border-color: transparent;
     height: 10vh;
@@ -168,7 +171,7 @@ hr{
     margin: 0 2vh;
 }
 
-#botao-confirma-som:active{
+#send:active{
     position:relative;
     top:5px;
     box-shadow:none;

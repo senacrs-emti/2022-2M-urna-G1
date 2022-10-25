@@ -1,4 +1,4 @@
-const button = document.querySelector("#botao-confirma-som");
+const button = document.querySelector("#send");
 button.addEventListener("click", function () {
 const audio = document.querySelector("#confirma-som");
 audio.play();
@@ -33,17 +33,23 @@ function votar() {
         sessionStorage.setItem(candidado, 1);
         
     }
-    alert("Confirmado voto no candidato "+candidado)
     document.getElementById("quadrado").value = "";
     document.getElementById("quadrado2").value = "";
 }
-/*
-function resultado() {
-    document.getElementById("resultado").innerHTML=""
-    for(i=0;i<100;i++){
-        if (sessionStorage.getItem(i) !== null) {
-            //alert(i);
-            document.getElementById("resultado").innerHTML += "Cantidado "+i+" tem "+sessionStorage.getItem(i)+" votos<br/>";
-        }
-    }
-}
+
+$(document).ready(function() {
+
+    $('#send').click(function(){
+
+        var tipovoto = $('#tipovoto').val();
+        $.ajax({
+            url: 'processa.php',
+            type: 'post',
+            data: 'tipo='+tipovoto,
+            success: function(results){
+                $(".tela").html(results);
+            }
+        });
+    });
+
+});
