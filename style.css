@@ -16,14 +16,15 @@
 }
     #logo{
     width: 25vh;
-    float: left;
     z-index: 1;
-    margin-top: 2vh;
+    margin-top: 3vh;
+    
 }
     #cadastro{
-    width: 500px;
+        display: block;
+    width: 20vh;
     margin-top: 10vh;
-    height: 90vh;
+    height: 50vh;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 20px;
     margin-right:10vh ;
@@ -34,7 +35,9 @@
         
     }
     #titulo-cadastro{
+        margin-top: 2vh;
         text-align: center;
+        
     }
     #login{
         background-image: url("./contents/login-background.png");
@@ -73,8 +76,11 @@
     }
     .menu{
        text-align: center;
-       background-color: aqua;
-       width: 1040px;
+       margin-top: 10vh;
+       color: black;
+
+    
+       
        
        
 
@@ -82,7 +88,38 @@
     .cards{
         display: block;
         margin: 10px;
-        background-color: rgb(83, 59, 59) ;
-        width: 500px;
-        height: 200px;
+        background: #FFFFFF;
+       height: 250px;
+       width: 550px;
+      left: 0px;
+      top: 0px;
+      border-radius: 10px;
+      
+
+       
     }
+    .redirectIMG{
+        width: 150px;
+        margin-top: 30px;
+    }
+    #home-body{
+        background-image: url("./contents/homeFundo.png");
+        background-size: cover;
+        background-position: center ;
+        
+    }
+    .cards:hover{
+        background: #e2e2e2;
+        border-radius: 10px;
+    }
+   .linkHome{
+    margin-top: 1rem;
+   }
+   #container{
+    width: 900px;
+   }
+   #form{
+    margin-top: 5vh;
+   }
+    
+  

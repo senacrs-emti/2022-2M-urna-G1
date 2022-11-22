@@ -1,71 +1,56 @@
 <?php
 include_once './includes/_dados.php';
 include_once './includes/_login.php';
-include_once "./includes/head.php";
+include_once './includes/head.php';
+include_once './includes/_header.php';
 ?>
-   <title>Olá, mundo!</title>
-  </head>
-  <body>
-  <header>
-    <img id="logo" src="./contents/senac.png" alt="">
+ 
 
-    
+<div class="container-fluid p-5" >
 
+<div class="row container-fluid">
+  
 
-  </header>
-
-<div class="container">
-<div class="row">
-<div id="cadastro" class=" col container">
+<div id="cadastro" class="  col-md-5  container">
 
 
 <h1 id="titulo-cadastro" class="container">Cadastro de candidato</h1>
 
-<form>
+<form id="form"class= "container">
   <div class="form-row">
-    <div class="form-group col-md-9">
+    <div class="form-group col-md-8">
       <label for="inputNomeCompleto">Nome completo do candidato</label>
       <input type="email" class="form-control" id="inputEmail4" placeholder="Nome...">
     </div>
-    <div class="form-group col-md-3">
+    <div class="form-group col-md-4">
       <label for="inputEmail14"> partido</label>
       <input type="text" class="form-control" id="inputPardido">
     </div>
   </div>
-  <div class="form-group">
-    <label for="inputAddress">Vice candidato</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Nome do vice...">
-  </div>
-  <div class="form-group">
-    <label for="inputAddress2">Tipo de candidatura</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="insira o tipo de candidatura">
-  </div>
   <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputCity">Cidade</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="form-group col-md-4">
-      <label for="inputEstado">Estado</label>
+  <div class="form-group col-md-8">
+    <label for="inputAddress2">Vice Candidato</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="insira o nome do vice-candidato">
+  </div>
+  <div class="form-group col-md-4">
+      <label for="inputEstado">Tipo de Candidatura</label>
       <select id="inputEstado" class="form-control">
         <option selected>Escolher...</option>
         <option>...</option>
       </select>
     </div>
-    <div class="form-group col-md-2">
-      <label for="inputCEP">Idade</label>
-      <input type="text" class="form-control" id="inputCEP">
     </div>
+  <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputCEP">CPF</label>
-      <input type="text" class="form-control" id="inputCEP" placeholder="000.000.000-00">
+      <input type="text" class="form-control" id="inputCPF" placeholder="000.000.000-00">
     </div>
   </div>
   
   <button type="submit" class="btn btn-primary">Entrar</button>
 </form>
 </div>
-<div di tabela class="col">
+<div di tabela class="col-md-6">
 <table id="tabela" class="table">
   <thead class="thead-dark">
     <tr>
@@ -99,8 +84,7 @@ include_once "./includes/head.php";
     </div>
 </div>
 </div>
-<
-<
+
 <?php
 include_once"./includes/footer.php";
 ?>
