@@ -1,3 +1,7 @@
+<?php
+$telaPoke = "
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
